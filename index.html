@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin: inicio de sesión o registro</title>
-    
-    <link rel="stylesheet" href="/css/style.css">
-   
-</head>
 
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+
+
+  </head>
+
+  <body>
     <header>
-        <nav class="navbar">
-            <picture class="navbar__logo">
-                <img src="/image/h-logo.svg" alt="Logo">
+      <!--NAVIGATION BAR-->
+      <nav class="navbar">
+        <picture class="navbar__logo">
+          <img src="/image/h-logo.svg" alt="Logo" />
+        </picture>
+
+        <ul class="navbar__list">
+          <li class="navbar__btn--join"><a href="#">Unirse ahora</a></li>
+          <li class="navbar__btn--login"><a href="#">Iniciar sesión</a></li>
+        </ul>
+      </nav>
+
+      <!--MAIN CONTENT-->
+      <main class="container">
+        <!--TEXT AND FORM CONTAINER-->
+        <section class="main-content">
+          <h1 class="phrase">
+            ¡Te damos la bienvenida a tu comunidad profesional!
+          </h1>
+
+          <form action="" autocomplete="on">
+            <label for="email">
+              <input
+                class="input-email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email o número de teléfono"
+              />
+            </label>
+
+            <label for="pwd">
+              <input
+                class="input-pwd"
+                type="password"
+                id="pwd"
+                name="pwd"
+                placeholder="Contraseña"
+              />
+            </label>
+
+            <span class="fgt-pwd"
+              ><a href="#">¿Has olvidado tu contraseña?</a></span
+            >
+
+            <input class="input-btn" type="submit" value="Iniciar sesión" />
+          </form>
+
+          <div class="line-separator">
+            <span class="left-line"></span><span class="o">o</span
+            ><span class="right-line"></span>
+          </div>
+
+
+          <button class="login__google">
+            <a class="login__google--btn" href="#">
+                <img class="login__google--icon" src="image/google-icon.png" alt="Google icon">
+                <span class="login__google--text">Iniciar sesión con Google</span>
+            </a>
+          </button>
+        </section>
+
+        <!--ILUSTRATION CONTAINER-->
+        <section class="ilustration">
+            <picture class="ilustration__img">
+                <img src="image/ilustration.svg" alt="">
             </picture>
+        </section>
 
-            <ul class="navbar__list">
-                <li class="navbar__btn--join"><a href="#">Unirse ahora</a></li>
-                <li class="navbar__btn--login"><a href="#">Iniciar sesión</a></li>
-            </ul>
-        </nav>
+      </main>
     </header>
-
-</body>
-
+  </body>
 </html>
