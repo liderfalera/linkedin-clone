@@ -264,11 +264,19 @@ body {
 /*--ILUSTRATION--*/
 
 .ilustration {
+  width: 100%;
   padding: 0 16px;
+  height: 300px;
 }
 
-.ilustration__img img {
+.ilustration__img {
+  outline-width: 0;
   width: 100%;
+  height: 240px;
+  background-image: url("https://static-exp1.licdn.com/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /*==========================
@@ -290,12 +298,55 @@ body {
 
   /*Margin to body*/
   .container {
-    max-width: 420px;
+    width: 420px;
     margin: auto;
   }
 }
 
+@media (min-width: 760px) {
+  /*CONTAINER*/
+  .container {
+    width: 100%;
+  }
 
+  .main-content {
+    width: 57%;
+  }
+
+  .main-content form,
+  .line-separator,
+  .login__google {
+    width: 370px;
+  }
+
+  /*PHRASE*/
+  .phrase {
+    width: 100%;
+    font-size: 5.6rem;
+    line-height: 70px;
+  }
+
+  /*-ILUSTRATION-*/
+
+  .ilustration {
+    width: 100%;
+    position: absolute;
+    height: 80vh;
+    padding: 0;
+    top: 100px;
+    right: 0;
+    z-index: -1;
+    height: 90vh;
+  }
+
+  .ilustration__img {
+    height: 100%;
+    background-image: url("https://static-exp1.licdn.com/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: calc(100% + 150px) top;
+  }
+}
 
 @media (min-width: 1160px) {
   /*----- NAVBAR-------*/
