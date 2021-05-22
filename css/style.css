@@ -104,6 +104,7 @@ body {
   height: auto;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 
 .navbar__logo img {
@@ -421,7 +422,7 @@ body {
     right: 100%;
     bottom: 100px;
     padding: 0;
-    top: -600px;
+    top: -550px;
     left: 400px;
     z-index: -1;
     
