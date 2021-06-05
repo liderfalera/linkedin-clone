@@ -1,5 +1,15 @@
 # LINKEDIN CLONE | [View demo👁](https://liderfalera.github.io/linkedin-clone/)
 
-![Social preview](https://i.imgur.com/X7jbLEn.png)
+![Social preview](https://i.imgur.com/bhhXcW0.png)
 
-## By Falera L.
+## Description
+
+Cloning the ["Linkedin: inicio de sesión o registro"](https://www.linkedin.com/home) page visually
+
+- Responsive layout | Media queries
+- Semantic HTML
+- CSS | Good practices
+- CSS | Variables
+- BEM metodology on css
+***
+### By Falera L.
