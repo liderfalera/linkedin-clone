@@ -1,6 +1,6 @@
 # LINKEDIN CLONE | [View demo👁](https://liderfalera.github.io/linkedin-clone/)
 
-[![Social preview](https://i.imgur.com/bhhXcW0.png)](#)
+[![Social preview](https://i.imgur.com/bhhXcW0.png)](https://liderfalera.github.io/linkedin-clone/)
 
 ## Description
 
